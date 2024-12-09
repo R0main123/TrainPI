@@ -1,0 +1,14 @@
+venv/
+venv.COPY/
+segment-anything/
+# Ignorer tous les fichiers .jpg et .png
+*.jpg
+*.png
+*.pth
+*.pt
+
+# Ignorer le dossier data
+data/
+.DS_Store
+.idea
+src/models/mmdetection/
